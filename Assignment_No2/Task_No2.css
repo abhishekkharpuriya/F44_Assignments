@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-background {
+  width: 100%;
+  height: 100vh;
+  /* border: 3px solid black; */
+  background-image: url(/assets/images/Ai.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.box-b {
+  width: 90%;
+  height: 50%;
+  border: 4px solid rgb(4, 163, 226);
+  background-color: rgba(0, 0, 0, 0.432);
+  box-shadow: 8px 8px 43px 1px rgba(0, 183, 255, 0.178);
+  color: white;
+  padding: 5px;
+  align-content: center;
+  text-align: center;
+}
+h2 {
+  color: rgba(212, 198, 172, 0.966);
+  font-size: xx-large;
+  text-decoration: underline;
+}
+p {
+  color: rgba(206, 203, 203, 0.911);
+  font-size: larger;
+  text-align: start;
+}

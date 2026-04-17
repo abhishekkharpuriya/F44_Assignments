@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-background {
+  width: 100%;
+  height: 100vh;
+  /* border: 3px solid black; */
+  background-image: url(/Assignment_No2/assets/images/game\ tech.jpg);
+  background-size: cover;
+  flex-direction: column;
+  align-content: end;
+}
+.tech-info-box {
+  width: 100%;
+  height: 35%;
+  /* border: 3px solid purple; */
+  background-color: rgb(203, 210, 221);
+  color: rgb(86, 49, 155);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 15px;
+}
+p {
+  padding: 5px;
+  color: rgb(32, 31, 31);
+}
+button {
+  font-size: medium;
+  padding: 10px;
+  background-color: wheat;
+  border: none;
+  color: rgb(22, 22, 21);
+  border-radius: 10px;
+}
+.button2 {
+  background-color: rgb(136, 100, 202);
+}
+.button-box {
+  width: 100%;
+  text-align: center;
+}

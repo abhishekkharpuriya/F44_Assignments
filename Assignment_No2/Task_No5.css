@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-backgroung {
+  width: 100%;
+  height: 100vh;
+  /* border: 3px solid black; */
+  background-image: url(/Assignment_No2/assets/images/house.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hb-top {
+  width: 100%;
+  height: 50%;
+}
+.bottom-box {
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.774);
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+button {
+  background-color: rgba(255, 245, 245, 0.507);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 15px;
+}
