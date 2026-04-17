@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-background {
+  width: 100%;
+  height: 100vh;
+}
+.sec-1 {
+  width: 100%;
+}
+#s24-img {
+  width: 100%;
+}
+h2 {
+  padding: 10px;
+}
+.sec-2 {
+  width: 100%;
+  height: 36%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ul-list {
+  margin: 5px;
+  padding: 5px;
+  line-height: 27px;
+}
+button {
+  font-size: 14px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: lightseagreen;
+}
