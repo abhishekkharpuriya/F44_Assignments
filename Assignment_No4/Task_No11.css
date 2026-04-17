@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/Assignment_No4/assets/images/bg\ img.jpg);
+  background-size: cover;
+}
+.img-box {
+  padding: 10px;
+}
+.text-box {
+  padding: 15px;
+  font-family: sans-serif;
+}
+.heading1 {
+  color: rgb(185, 133, 233);
+}
+.heading2 {
+  margin-top: 20px;
+  color: whitesmoke;
+}
+.para {
+  margin-top: 25px;
+  color: grey;
+}
+.btn {
+  width: 45%;
+  border-radius: 25px;
+  padding: 10px;
+  font-size: 17px;
+  background-color: rgb(233, 189, 152);
+}
+@media (min-width: 768px) {
+  .img-box {
+    display: flex;
+    justify-content: center;
+  }
+  .airpods-png {
+    width: 500px;
+    height: 460px;
+  }
+  .text-box {
+    font-size: 25px;
+  }
+  .heading1 {
+    margin-top: 40px;
+  }
+  .heading2 {
+    margin-top: 40px;
+  }
+  .para {
+    margin-top: 45px;
+  }
+  .btn {
+    width: 45%;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 45px;
+  }
+}
+@media (min-width: 1024px) {
+  .main-bg {
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .airpods-png {
+    width: 400px;
+    height: 360px;
+  }
+  .text-box {
+    font-size: 20px;
+  }
+
+  .heading2 {
+    margin-top: 35px;
+  }
+  .para {
+    margin-top: 40px;
+  }
+  .btn {
+    width: 35%;
+    padding: 12px;
+    font-size: 15px;
+    margin-top: 40px;
+  }
+}

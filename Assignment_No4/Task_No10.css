@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-bg {
+  width: 100%;
+  /* height: 100vh; */
+  padding: 20px;
+  background-color: rgb(100, 155, 226);
+}
+.main-box {
+  width: 100%;
+  /* height: 100%; */
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-area {
+  padding: 20px;
+}
+.marketing {
+  width: 98%;
+  height: 20%;
+  padding: 10px;
+  border-radius: 15px;
+  background-image: url(/Assignment_No4/assets/images/m\ img\ 1.jpg);
+  background-size: cover;
+}
+.coffee-fruits {
+  width: 100%;
+  height: 20%;
+}
+.coffee {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-image: url(/Assignment_No4/assets/images/coffe\ img\ 2.jpg);
+  background-size: cover;
+}
+
+.fruits {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-image: url(/Assignment_No4/assets/images/fruits\ img\ 3.jpg);
+
+  background-size: cover;
+}
+.laptop {
+  width: 98%;
+  height: 20%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-image: url(/Assignment_No4/assets/images/laptop\ img\ 4.jpg);
+
+  background-size: cover;
+}
+.nature-interior {
+  width: 100%;
+  height: 20%;
+}
+.nature {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-image: url(/Assignment_No4/assets/images/nature\ img\ 5.jpg);
+  background-size: cover;
+}
+.interior {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-image: url(/Assignment_No4/assets/images/interior\ img\ 6.jpg);
+
+  background-size: cover;
+}
+.box-heading {
+  font-family: sans-serif;
+  text-align: left;
+  color: white;
+}
+.btn {
+  display: flex;
+  align-self: start;
+  padding: 8px;
+  background: transparent;
+  border-radius: 10px;
+  border-color: whitesmoke;
+}
+@media (min-width: 678px) {
+  .text-area {
+    font-size: 25px;
+  }
+  .box-heading {
+    font-size: 30px;
+  }
+  .btn {
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 13%;
+  }
+  .coffee-fruits {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .coffee {
+    width: 48%;
+  }
+  .fruits {
+    width: 48%;
+  }
+  .nature-interior {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nature {
+    width: 48%;
+  }
+  .interior {
+    width: 48%;
+  }
+}
+@media (min-width: 1024px) {
+  .main-bg {
+    height: 85%;
+  }
+  .main-box {
+    /* width: 70%; */
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .text-area {
+    font-size: 15px;
+  }
+  .box-heading {
+    font-size: 20px;
+  }
+  .btn {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 0%;
+  }
+}

@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-bg {
+  width: 100%;
+  height: 100vh;
+  background-color: yellowgreen;
+  background-image: url(/Assignment_No4/assets/images/robot\ img.png);
+  background-size: cover;
+}
+.text-box {
+  width: 33%;
+  padding: 50px;
+}
+.heading {
+  font-family: sans-serif;
+  font-size: 35px;
+  color: wheat;
+}
+.para {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: whitesmoke;
+}
+.icon {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+.robot-icon:hover {
+  width: 78px;
+}

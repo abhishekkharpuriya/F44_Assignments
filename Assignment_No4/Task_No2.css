@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-bg {
+  width: 100%;
+  height: 100vh;
+  background-color: yellowgreen;
+  background-image: url(/Assignment_No4/assets/images/audi\ car\ 1.png);
+  background-size: cover;
+}
+.text-box {
+  width: 35%;
+  padding: 40px;
+  text-align: right;
+  font-size: 10px;
+  position: absolute;
+  right: 0px;
+}
+.heading {
+  font-family: sans-serif;
+  font-size: 34px;
+  color: rgb(71, 71, 70);
+}
+.para {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: rgba(71, 71, 70, 0.705);
+}
+.icon {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+.robot-icon:hover {
+  width: 72px;
+}

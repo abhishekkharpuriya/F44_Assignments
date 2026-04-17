@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-bg {
+  width: 100%;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  /* padding: 40px 20px; */
+  background: linear-gradient(to right, orange, pink, rgb(128, 0, 128), cyan);
+}
+.h-top-sec {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.nav-items {
+  display: none;
+}
+.h-heading {
+  margin-top: 25px;
+  font-size: 27px;
+}
+.h-para {
+  margin-top: 25px;
+  font-family: sans-serif;
+}
+.search-box {
+  display: none;
+}
+.btn {
+  display: none;
+}
+.section-b {
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+.icon {
+  font-size: 100px;
+}
+.box {
+  padding: 5px;
+  margin: 15px;
+}
+.icon-cap {
+  font-family: sans-serif;
+  font-size: 19px;
+}
+@media (min-width: 768px) {
+  .logo {
+    font-size: 33px;
+  }
+  .search-icon {
+    font-size: 33px;
+  }
+  .nav-bar {
+    width: 35%;
+    padding: 5px;
+    margin-left: 250px;
+  }
+  .nav-items {
+    font-size: 20px;
+    display: inline;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .link {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  .h-heading {
+    margin-top: 50px;
+    font-size: 45px;
+  }
+  .h-para {
+    margin-top: 45px;
+    font-size: 25px;
+  }
+  .icon {
+    font-size: 150px;
+  }
+  .icon-cap {
+    font-size: 25px;
+  }
+
+  .box {
+    padding: 10px;
+    margin: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .header {
+    height: 60%;
+    background: linear-gradient(
+      to bottom,
+      orange,
+      pink,
+      rgb(128, 0, 128),
+      cyan
+    );
+  }
+  .nav-bar {
+    width: 25%;
+    padding: 5px;
+    margin-left: 730px;
+  }
+  .section-b {
+    height: 40%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .icon {
+    font-size: 100px;
+  }
+  .link:hover {
+    color: rgb(24, 21, 21);
+  }
+  .search-icon:hover {
+    color: rgb(24, 21, 21);
+  }
+  .search-box {
+    display: inline;
+    width: 25%;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+  }
+  .btn {
+    display: inline;
+
+    font-size: 16px;
+    padding: 7px;
+    margin-left: 5px;
+    border-radius: 6px;
+    /* border: none; */
+    color: white;
+    background-color: rgb(57, 101, 221);
+  }
+}

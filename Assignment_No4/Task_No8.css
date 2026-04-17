@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-cont {
+  width: 100%;
+  height: 100vh;
+}
+.sec1 {
+  width: 100%;
+  height: 45%;
+  background-image: url(/Assignment_No4/assets/images/homes.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1-text {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.603);
+  color: whitesmoke;
+}
+.img {
+  position: relative;
+  top: 80px;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+.img-text {
+  margin: 5px;
+  position: relative;
+  top: 80px;
+}
+.sec2 {
+  padding: 15px;
+  width: 100%;
+  height: 55%;
+}
+.sec2-heading {
+  width: 100%;
+  height: 50%;
+  /* background-color: tomato; */
+}
+.sec2-numb {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: yellowgreen; */
+}
+.sec2-numb-boxs {
+  padding: 10px;
+  width: 150px;
+  height: 65px;
+  margin: 10px;
+  /* background-color: gray; */
+}
+.para {
+  color: rgb(73, 72, 72);
+}
+.num {
+  color: rgb(20, 101, 194);
+}
+@media (min-width: 768px) {
+  .img {
+    position: relative;
+    top: 150px;
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+  }
+  .img-text {
+    margin: 5px;
+    position: relative;
+    top: 150px;
+  }
+  .sec1-heading {
+    font-size: 35px;
+  }
+  .sec1-para {
+    font-size: 25px;
+  }
+  .sec2-whtbs {
+    font-size: 35px;
+  }
+  .para {
+    font-size: 25px;
+  }
+  .sec2-numb-boxs {
+    width: 320px;
+    height: 100px;
+    /* background-color: yellowgreen; */
+  }
+  .num {
+    font-size: 25px;
+  }
+}
+@media (min-width: 1024px) {
+  .main-cont {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+  }
+  .sec1 {
+    width: 45%;
+    height: 100%;
+  }
+  .img {
+    width: 70px;
+    height: 70px;
+  }
+  .sec2 {
+    width: 55%;
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sec2-numb-boxs {
+    width: 45%;
+  }
+}
