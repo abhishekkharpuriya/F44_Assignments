@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-backgroung {
+  width: 100%;
+  height: 100vh;
+  border: 3px solid black;
+  background-image: url(/Assignment_No1/assets/images/download.jpg);
+  background-image: url(/assets/images/download.jpg);
+  background-size: cover;
+  padding: 15px;
+}
+h1 {
+  font-size: xxx-large;
+  color: wheat;
+  text-shadow: 7px 6px 6px rgba(0, 0, 0, 0.62);
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: large;
+}
+article {
+  font-size: large;
+}
+button {
+  font-size: larger;
+  background-color: rgb(126, 57, 40);
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 7px;
+}
+.b-link {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+a {
+  color: rgb(17, 58, 17);
+}
